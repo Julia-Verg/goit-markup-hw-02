@@ -167,11 +167,7 @@ top: 280px;
 left: 700px;
 top: 430px;
   }
-  <div class="image">
-    <img src="https://static.tumblr.com/3d9ac85fda4c928fbf020185e2aab0c5/ecuyhbw/inIon7mm9/tumblr_static_badr4s3xiooc4sosgokwosk0s_640_v2.jpg">
-    <div class="text">Title</div>
-  </div>
-  /* end test */
+ 
   
   .hero-title {
     /* color: var(--third-background-color); */
@@ -418,4 +414,8 @@ font-size: 16px;
 line-height: 1.88;
 letter-spacing: 0.03em;
 color: var(--secondary-text-color);
+}
+.portfolio-item .portfolio-link {
+list-style-type: none;
+text-decoration: none;
 }
