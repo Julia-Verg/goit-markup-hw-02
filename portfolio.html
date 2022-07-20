@@ -13,20 +13,19 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="nav-content">
-         <nav class="container">   
+    <header  class="nav-content">
+         <nav class="header-nav">   
             <!-- logo  -->
            <a href= "./index.html" class="nav-logo" lang="en"><span class="nav-logo-web">Web</span><span class="nav-logo-studio">Studio</span>
             </a>    
-           <!--menu nav  -->           
-            <div class="nav-list-container">
+           <!--menu nav  -->  
             <ul class="nav-list style-list ">
                 <li class="nav-item"><a href="./index.html" class="nav-link" target="_blank">Студия</a></li>
                 <li class="nav-item"><a href="./portfolio.html" class="nav-link current" target="_blank">Портфолио</a></li>
                 <li class="nav-item"><a href="./contacts.html" class="nav-link" target="_blank">Контакты</a></li>
             </ul>
-        </div>
-        <div class="auth-nav-container"></div>
+        </nav> 
+        
         <ul class="style-list">
             <li class="auth-nav-item">
                 <a href="mailto:info@devstudio.com" class="auth-nav-email"> info@devstudio.com</a>
@@ -35,7 +34,7 @@
                 <a href="tel:+380961111111" class="auth-nav-phone">+38 096 111 11 11</a>
             </li>
         </ul>
-    </nav> 
+   
 </header>
 <main>
     <!-- buttons -->
@@ -44,18 +43,15 @@
             display: none;
           } wiil hide h1 but second way isnt good semanticaly-->
        
-            <ul class="portfolio-list">
-                <li class="nav-menu"><button type="button" class="portfolio-button">Все</button></li>
-                <li class="nav-menu"><button type="button" class="portfolio-button">Вебсайты</button></li>
-                <li class="nav-menu"><button type="button" class="portfolio-button">Приложения</button></li>
-                <li class="nav-menu"><button type="button" class="portfolio-button">Дизайн</button></li>
-                <li class="nav-menu"><button type="button" class="portfolio-button">Маркетинг</button></li>
+            <ul class="nav-menu">
+                <li class="portfolio-menu"><button type="button" class="portfolio-button">Все</button></li>
+                <li class="portfolio-menu"><button type="button" class="portfolio-button">Вебсайты</button></li>
+                <li class="portfolio-menu"><button type="button" class="portfolio-button">Приложения</button></li>
+                <li class="portfolio-menu"><button type="button" class="portfolio-button">Дизайн</button></li>
+                <li class="portfolio-menu"><button type="button" class="portfolio-button">Маркетинг</button></li>
             </ul>
        
         <!-- portfolio examples -->
-
-     
-    <div class="portfolio-container">
 <ul class="portfolio-list">
     <li class="portfolio-item ">
        <a href="#"  class="portfolio-link"> <img src="./img/portfolio1.jpg" alt="Веб-сайт Технокряк " width="370">
@@ -104,7 +100,6 @@
         <p class="portfolio-project">Приложение</p></a>
     </li>
 </ul>
-</div>
     </section>
 </main>    
 <!-- footer -->
